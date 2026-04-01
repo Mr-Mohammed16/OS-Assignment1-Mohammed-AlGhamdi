@@ -262,7 +262,7 @@ public class SchedulerSimulation {
                     addProcessToQueue(process, processQueue, processMap);
                 } else {
                     // If this is the last process in the queue, run it to completion
-                    System.out.println(Colors.BRIGHT_YELLOW + "  ⚠ " + Colors.CYAN + process.getName() + 
+                    System.out.println(Colors.BRIGHT_YELLOW + " 1 ⚠ " + Colors.CYAN + process.getName() + 
                                       Colors.RESET + Colors.YELLOW + " is the last process → running to completion" + 
                                       Colors.RESET);
                     process.runToCompletion(); // Run until the process completes
@@ -299,6 +299,6 @@ public class SchedulerSimulation {
         System.out.println(Colors.BLUE + "  ➕ " + Colors.BOLD + Colors.CYAN + process.getName() + 
                           Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET + 
                           " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" + 
-                          Colors.RESET+ " │ Priority: " + Colors.BRIGHT_YELLOW + process.getPriority());
+                          Colors.RESET+ " │ Priority: " + Colors.BRIGHT_YELLOW + process.getPriority ());
     }
 }
