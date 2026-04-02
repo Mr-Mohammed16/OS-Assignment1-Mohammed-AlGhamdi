@@ -9,7 +9,10 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+[In this assignment, I learned the fundamental concepts of multithreading and how threads can be used to execute multiple tasks concurrently within the same program. I understood how to create threads using the Runnable interface and how each thread represents an independent unit of execution. I also learned about the different thread states such as New, Runnable, Running, Waiting, and Terminated, and how a thread transitions between these states during execution.
+
+Additionally, I gained practical experience with methods like Thread.start(), Thread.sleep(), and Thread.join(), and how they control thread behavior. One important concept I learned is how threads share memory, which makes communication faster compared to processes. I was also able to see how multithreading is used in scheduling algorithms like Round-Robin to ensure fairness between tasks. Overall, this assignment helped me understand how threads work in real systems and how they improve performance and responsiveness.
+]
 
 ---
 
@@ -17,7 +20,9 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+[The most challenging part of this assignment was understanding the existing starter code and how the scheduling simulation works. At the beginning, it was difficult to follow the logic of how processes are managed, how threads are created, and how the ready queue operates. In particular, implementing the waiting time feature was quite challenging because it required accurate time tracking and correct placement of calculations within the code.
+
+Another difficulty was ensuring that the new features did not break the existing functionality of the program. I had to be careful when modifying the Process class and the SchedulerSimulation class. Debugging issues related to incorrect outputs also took time and effort. Overall, the complexity of combining multithreading with scheduling logic made this assignment difficult to understand and implement.]
 
 ---
 
@@ -25,7 +30,10 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+[I overcame these challenges by breaking the problem into smaller parts and focusing on one feature at a time. First, I carefully read the code multiple times to understand how each part works, especially the scheduling loop and thread execution. I also used debugging techniques such as printing intermediate values to track how the program behaves during execution.
+
+In addition, I referred to lecture materials and online resources to better understand concepts like thread lifecycle and time management. When implementing features, I tested the program after each modification to ensure everything was working correctly. This step-by-step approach helped me identify and fix errors more efficiently. Over time, I became more comfortable working with the code and understanding how multithreading works in practice.
+]
 
 ---
 
@@ -33,7 +41,10 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+[Multithreading is widely used in real-world applications to improve performance and responsiveness. For example, web browsers use multithreading to load multiple tabs at the same time, allowing users to browse different websites without delays. Each tab can run in a separate thread, which ensures smooth and efficient execution.
+
+Another example is in video games, where threads are used to handle different tasks such as rendering graphics, processing user input, and managing physics calculations simultaneously. This allows the game to run smoothly without lag. In this assignment, I saw how Round-Robin scheduling distributes CPU time fairly between processes, which is similar to how operating systems manage multiple applications. These concepts are essential for building efficient and responsive software systems.
+]
 
 ---
 
@@ -55,4 +66,4 @@ Answer the following questions about your learning experience. Each answer shoul
 
 ### Feedback on the assignment
 
-[Any comments about the assignment? Was it helpful? Too easy/hard? Suggestions for improvement?]
+[This assignment was very difficult and challenging to understand and implement. The concepts of multithreading and scheduling required a deep level of understanding, and the starter code was complex to follow at first. It took significant time and effort to fully understand how the system works and to correctly implement the required features. Despite the difficulty, it was a valuable learning experience that helped me improve my problem-solving skills and understanding of operating systems concepts.]
