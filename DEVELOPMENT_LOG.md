@@ -32,29 +32,37 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 29,11PM]
+**What I did**: Forked the repository and set up the project.
 
 **Details**: 
+- Created a GitHub account using my university email
+- Forked the starter repository and renamed it
+- Added my student ID in SchedulerSimulation.java
+- Ran the program for the first time to understand the output
 
-**Challenges**: 
+**Challenges**: It's difficult to download and learn programs.
 
-**Solution**: 
+**Solution**:Carefully read the README file and analyzed the code step by step 
 
-**Time spent**: 
+**Time spent**: 5 hour
 
 ---
 
 ### Entry 2 - [Date and Time]
-**What I did**: 
+**What I did**:  Implemented Feature 1 (Process Priority)
 
 **Details**: 
+- Added a priority field to the Process class
+- Modified the constructor to include priority
+- Generated random priority values ​​between 1 and 5
+- Displayed priority in the ready queue output
 
-**Challenges**: 
+**Challenges**: Learn and write codes
 
-**Solution**: 
+**Solution**: Carefully updated all places where the Process object is created
 
-**Time spent**: 
+**Time spent**: 3 hour
 
 ---
 
@@ -62,12 +70,16 @@ Document your development process as you work on the assignment. Add entries sho
 **What I did**: 
 
 **Details**: 
+- Added a static variable to count context switches
+- Incremented the counter each time a process starts execution
+- Printed total context switches at the end of the simulation
 
-**Challenges**: 
 
-**Solution**: 
+**Challenges**: Determining the correct place to increment the counter
 
-**Time spent**: 
+**Solution**: Added the increment right before starting each thread
+
+**Time spent**: 2:30 hour
 
 ---
 
@@ -75,25 +87,32 @@ Document your development process as you work on the assignment. Add entries sho
 **What I did**: 
 
 **Details**: 
+- Added fields to track creation time and waiting time
+- Used System.currentTimeMillis() to calculate waiting time
+- Displayed a summary table at the end of execution
 
-**Challenges**: 
+**Challenges**: Calculating accurate waiting time without errors
 
-**Solution**: 
+**Solution**: Carefully tracked the time before each execution and updated waiting time correctly
 
-**Time spent**: 
+**Time spent**:  3 hours
 
 ---
 
 ### Entry 5 - [Date and Time]
-**What I did**: 
+**What I did**: Testing and debugging
 
 **Details**: 
+- Ran the program multiple times to verify correctness
+- Checked output formatting and correctness of values
+- Ensured all features worked together properly
 
-**Challenges**: 
+**Challenges**: Some waiting time values were incorrect at first
 
-**Solution**: 
+**Solution**: Fixed the timing logic and verified calculations
 
-**Time spent**: 
+**Time spent**: 1 hour
+
 
 ---
 
@@ -112,10 +131,15 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+## Summary
+
+**Total time spent on assignment**: 5 Days
 
 **Most challenging part**: 
+Tracking and calculating the waiting time correctly was the most challenging part because it required accurate timing and careful updates during execution.
 
 **Most interesting learning**: 
+Understanding how Round-Robin scheduling works with threads and how processes share CPU time fairly.
 
 **What I would do differently next time**: 
+I would start earlier and test each feature more thoroughly before moving to the next one to avoid debugging issues later.
