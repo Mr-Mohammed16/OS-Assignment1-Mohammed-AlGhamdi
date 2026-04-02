@@ -49,7 +49,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 2 - [Date and Time]
+### Entry 2 - [Apr1]
 **What I did**:  Implemented Feature 1 (Process Priority)
 
 **Details**: 
@@ -66,8 +66,8 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [Apr1]
+**What I did**: Implemented Feature 2 (Context Switch Counter)
 
 **Details**: 
 - Added a static variable to count context switches
@@ -83,8 +83,8 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [Apr2]
+**What I did**: Implemented Feature 3 (Waiting Time Tracking)
 
 **Details**: 
 - Added fields to track creation time and waiting time
@@ -99,7 +99,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 5 - [Date and Time]
+### Entry 5 - [Apr2]
 **What I did**: Testing and debugging
 
 **Details**: 
